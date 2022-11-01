@@ -313,7 +313,7 @@ Epoch time: 74682.153 ms, per step time: 141.981 ms, avg loss: 0.038
 <p id="17"></p>
 
 ## ModelZoo主页
-请浏览官网[主页](#https://gitee.com/mindspore/models) 。
+请浏览官网[主页](https://gitee.com/mindspore/models) 。
 
 
 
