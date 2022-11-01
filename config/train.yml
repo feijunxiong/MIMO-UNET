@@ -1,0 +1,39 @@
+MODEL_NAME: MIMO-UNetPlus
+
+TRAIN:
+  RESUME: 
+  NUMEPOCH: 3000
+
+SCHE:
+ learning_rate: !!float 1e-4 
+ decay_rate: 0.5
+ decay_epoch: 500
+ is_stair: true
+
+OPTIM:
+  weight_decay: 0
+  beta1: 0.9
+  beta2: 0.999
+  eps: !!float 1e-8
+
+DATASET:
+  path: ./dataset/GOPRO
+  mode: train
+
+DATALOADER:
+  column_names: ["input", "label"]
+  shuffle: true
+  num_parallel_workers: 16
+  batch_size: 4
+
+CALLBACK:
+  ckpt_cfg:
+    save_checkpoint_steps: 526
+    keep_checkpoint_max: 200
+
+  print_freq: 526
+
+
+
+
+

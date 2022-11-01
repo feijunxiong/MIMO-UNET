@@ -1,0 +1,16 @@
+MODEL_NAME: MIMO-UNetPlus
+
+
+PRETRAINED: "./mimo-unetplus.ckpt"
+SAVE_IMG: false
+SAVED_PATH: ./restored
+
+DATASET:
+  path: ./dataset/GOPRO
+  mode: test
+
+DATALOADER:
+  column_names: ["input", "label"]
+  shuffle: false
+  num_parallel_workers: 1
+  batch_size: 1
