@@ -99,10 +99,10 @@ MIMO-UNet架构基于多输入多输出的单个U-Net，而非堆叠多个子网
 - 硬件（Ascend）
   - 使用昇腾处理器（Ascend）来搭建硬件环境。
 - 框架
-  - [MindSpore](#https://www.mindspore.cn/install)
+  - [MindSpore](https://www.mindspore.cn/install)
 - 有关详细信息，请参阅以下资源：
-  - [MindSpore Tutorial](#https://www.mindspore.cn/tutorials/zh-CN/master/index.html)
-  - [MindSpore Python API](#https://www.mindspore.cn/docs/zh-CN/master/index.html)
+  - [MindSpore Tutorial](https://www.mindspore.cn/tutorials/zh-CN/master/index.html)
+  - [MindSpore Python API](https://www.mindspore.cn/docs/zh-CN/master/index.html)
   
 ---
 <p id="5"></p>
